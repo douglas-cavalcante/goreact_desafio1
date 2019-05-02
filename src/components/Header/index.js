@@ -1,9 +1,8 @@
 import React from "react";
-import "./styles.css";
 
 const Header = () => (
   <div className="header">
-    <h1>Rocketseat</h1>
+    <h1>RocketBook</h1>
   </div>
 );
 
