@@ -1,0 +1,7 @@
+.post {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-color: red;
+  border: 1px solid black
+}
