@@ -18,7 +18,6 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: #4267b2;
   height: 40px;
   border-bottom: 1px solid #29487d;
@@ -82,4 +81,50 @@ h4 {
 .line-separator {
   border-bottom: 2px solid #dfe3ee;
   margin: 10px 0;
+}
+
+@media (max-width: 800px) {
+  .post {
+    width: 300px;
+  }
+}
+
+@media (max-width: 550px) {
+  .post {
+    width: 200px;
+  }
+}
+
+@media (max-width: 550px) {
+  .post {
+    width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .post {
+    width: 100px;
+
+    .header-post {
+      flex-direction: column;
+    }
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+    }
+
+    strong {
+      margin-top: 10px;
+      font-size: 13px;
+    }
+
+    span {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
 }
