@@ -1,3 +1,3 @@
 # goreact_desafio1
 
-Desafio 1 do curso GoReact.
+Desafio 1 do curso GoReact
