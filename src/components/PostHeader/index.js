@@ -1,10 +1,11 @@
-import React from "react";
-const HeaderPost = (props) => (
+import React from 'react';
+
+const HeaderPost = ({ avatar, name, time }) => (
   <div className="header-post">
-    <img className="avatar" src={props.avatar} />
+    <img className="avatar" src={avatar} açt="avatar" />
     <div className="info-post">
-      <strong>{props.name}</strong>
-      <span>{props.time}</span>
+      <strong>{name}</strong>
+      <span>{time}</span>
     </div>
   </div>
 );
